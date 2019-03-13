@@ -32,18 +32,18 @@ namespace Swingy.Controllers
             {
               case "Wizard":
                 attack = 13;
-                defense = 4;
+                defense = 7;
                 hitPoints = 80;
               break;
               case "Alchemist":
                 attack = 15;
                 defense = 3;
-                hitPoints = 90;
+                hitPoints = 110;
               break;
               default:
                 attack = 25;
                 defense = 2;
-                hitPoints = 100;
+                hitPoints = 90;
               break;
             }
 
