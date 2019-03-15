@@ -1,17 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Swingy.Views
 {
     public class View
     {
+        //Log to keep track of the battle outcome
         private List<string> Log;
 
         public View()
         {
+            //Initialise the logger
             Logger logger = Logger.GetInstance();
             logger.CreateLog();
             Log = logger.GetLog();
@@ -45,6 +44,9 @@ namespace Swingy.Views
             Console.WriteLine(str);
         }
 
+        /*
+         * Print the battle outcome
+         */
         public void UpdateLog()
         {
             foreach (string L in Log)
