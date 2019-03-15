@@ -1,18 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace Swingy
 {
+    /*
+     * A Singleton class
+     */
     public class Logger
     {
         private static Logger Instance = new Logger();
         private List<string> Log;
 
+        //Restricts the instantiation of Logger
         private Logger() { }
 
+        //Logger instance only accessible via this method
         public static Logger GetInstance()
         {
             return Instance;
