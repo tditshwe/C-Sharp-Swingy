@@ -18,7 +18,7 @@ When the player starts the game he has 2 options:
 - Select a previously created hero.
 
 After choosing a hero the actual game begins. The hero needs to navigate a square map with the size calculated by the formula (level - 1) * 5 + 10 - (level % 2). For example a hero of level 7 will be placed on a 39X39 map. The initial position of the hero is in the center of the map. He wins the game if he
-reaches on of the borders of the map. Each turn he can move one position in one of the4 four directions:
+reaches on of the borders of the map. Each turn he can move one position in one of the 4 four directions:
 
 - North
 - East
