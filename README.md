@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is based on the second project in a series of Java projects, produced at [42](https://www.42.fr/). It is a console based minimalistic text-based RPG game.
+This project is based on the second project in a series of Java projects that are part of [Wethinkcode](https://www.wethinkcode.co.za/) curriculum. It is a console based minimalistic text-based RPG game.
 
 ### Gameplay
 
