@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is based on the second project in a series of Java projects that are part of [Wethinkcode](https://www.wethinkcode.co.za/) curriculum. It is a console based minimalistic text-based RPG game.
+This project is based on the second project in a series of Java projects that is part of the [Wethinkcode](https://www.wethinkcode.co.za/) curriculum. It is a console based minimalistic text-based RPG game.
 
 ### Gameplay
 
@@ -12,21 +12,19 @@ A player can pick from multiple heroes of different types (Wizard, Warrior and A
 - Warrior: attack = 15, defense = 3, hitPoints = 110
 - Alchemist: attack = 25, defense = 2, hitPoints = 90
 
-When the player starts the game he has 2 options:
+When the player starts the game there are 2 options:
 
 - Create a hero
 - Select a previously created hero.
 
-After choosing a hero the actual game begins. The hero needs to navigate a square map with the size calculated by the formula (level - 1) * 5 + 10 - (level % 2). For example a hero of level 7 will be placed on a 39X39 map. The initial position of the hero is in the center of the map. He wins the game if he
-reaches on of the borders of the map. Each turn he can move one position in one of the 4 four directions:
+After choosing a hero the actual game begins. The hero needs to navigate a square map with the size calculated by the formula (level - 1) * 5 + 10 - (level % 2). For example a hero of level 7 will be placed on a 39X39 map. The initial position of the hero is in the center of the map. He wins the game if he reaches one of the borders of the map. Each turn he can move one position in one of the 4 four directions:
 
 - North
 - East
 - South
 - West
 
-When the map is generated, villains of varying power will be spread randomly over the
-map:
+When the map is generated, villains of varying power will be spread randomly over the map:
 
 - Demon: attack = 15, defense = 3, hitPoints = 50, letter on the map `V`
 - Ghost: attack = 25, defense = 5, hitPoints = 100, letter on the map `G`
